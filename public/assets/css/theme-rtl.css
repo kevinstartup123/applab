@@ -2530,7 +2530,7 @@ progress {
 }
 
 .form-text {
-  margin-top: 0.25rem;
+  -top: 0.25rem;
   font-size: 75%;
   color: #CDCCD1;
 }
@@ -10058,8 +10058,14 @@ fieldset:disabled .btn {
   .w-sm-25 {
     width: 25% !important;
   }
+  .w-sm-40 {
+    width: 40% !important;
+  }
   .w-sm-50 {
     width: 50% !important;
+  }
+  .w-sm-60 {
+    width: 60% !important;
   }
   .w-sm-75 {
     width: 75% !important;
